@@ -1,7 +1,7 @@
 :root {
   --main-primary: #2997ff;
   --color-blue-soft: #C7D0FF;
-  --color-blue-marine: #414970;
+  --color-blue-marine: #303653;
   --color-cyan: #16b0dd;
   --color-purple: #974994;
   --color-red: #e43b37;
@@ -23,8 +23,8 @@
   --black: #000;
 
   /* CORES DO CARDS COM OPACIDADE */
-  --color-bw-300-com-opacidade: hsla(0, 0%, 88%, 0.5);
-  --color-bw-800-opacity: rgba(66, 66, 66, 0.5);
+  --color-bw-300-com-opacidade: hsla(0, 0%, 88%, 0.45);
+  --color-bw-800-opacity: rgba(66, 66, 66, 0.4);
 
   --global-backdrop-filter: saturate(180%) blur(20px);
 

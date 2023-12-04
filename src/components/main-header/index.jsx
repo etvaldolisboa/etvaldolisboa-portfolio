@@ -7,7 +7,7 @@ export const MainHeader = () => {
   return (
     <Header>
       <div>
-        <Link><h1>etvaldolisboa</h1></Link>
+        <Link><h1>EL</h1></Link>
         <Nav />
       </div>
     </Header>

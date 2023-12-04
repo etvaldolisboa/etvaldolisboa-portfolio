@@ -17,9 +17,9 @@ function App() {
         <Container>
           <MainHeader />
           <Hero />
-          <About />
-          <Abilities />
-          <Projects />
+          {/* <About /> */}
+          {/* <Abilities /> */}
+          {/* <Projects /> */}
         </Container>
       </BrowserRouter>
     </>
@@ -36,7 +36,7 @@ export const GlobalStyle = createGlobalStyle`
     box-sizing: border-box;
     font-size: 62.5%;
   }
-
+  
   html{
     scroll-behavior: smooth;
     font-weight: 400;
@@ -55,7 +55,7 @@ export const GlobalStyle = createGlobalStyle`
   section{
     border: 1px solid yellow;
     margin: 0 auto;
-    max-width:1280px;
+    max-width:1440px;
   }
 
   a{
@@ -65,5 +65,11 @@ export const GlobalStyle = createGlobalStyle`
   ul, li{
     list-style: none;
     all: unset;
+  }
+  h1, h2, h3, h4,h5, h6{
+    margin-block-start: 0;
+    margin-block-end:0;
+    font-weight: 700;
+    text-transform: capitalize;
   }
 `;

@@ -16,4 +16,11 @@ export const NavegationBar = styled.ul`
       text-shadow: 0rem 0rem .2rem var(--main-primary);
     }
   }
+
+  @media (max-width:768px) {
+    display: none;
+    /* width: 100%; */
+    /* align-items: center; */
+    /* flex-direction: column; */
+  }
 `

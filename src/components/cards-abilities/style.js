@@ -5,7 +5,7 @@ export const ListAbilities = styled.ul`
   gap: 20px;
   flex-wrap:wrap ;
 `
-export const Card = styled.li`
+export const Ability = styled.li`
   color: var(--white);
   color: yellow;
   background-color: var(--color-bw-800-opacity);

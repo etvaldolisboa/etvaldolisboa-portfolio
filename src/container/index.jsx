@@ -8,8 +8,10 @@ export const Container = (props) => {
     /* flex-direction: column ; */
     /* justify-content: center; */
 
-    @media (max-width: 1280px) {
-      padding: 0 3rem;
+    @media (max-width: 1440px) {
+      header, section {
+        padding: 0 3rem;
+      }
     }
     @media (max-width: 768px) {
       display: block;

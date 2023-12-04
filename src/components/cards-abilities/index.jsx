@@ -1,5 +1,5 @@
-import React from 'react'
-import { Card, ListAbilities } from './style'
+// import React from 'react'
+import { Ability, ListAbilities } from './style'
 
 import reactIcon from '../../assets/icons/react-icon.svg'
 import gitIcon from '../../assets/icons/git-icon.svg'
@@ -9,28 +9,28 @@ import vueJSIcon from '../../assets/icons/vuejs-icon.svg'
 import cssIcon from '../../assets/icons/css-icon.svg'
 
 
-export const CardsAbility = () => {
+export const CardsAbilities = () => {
   return (
     <>
       <ListAbilities>
-        <Card>
+        <Ability>
           <img src={reactIcon} alt="icon react" />
-        </Card>
-        <Card>
+        </Ability>
+        <Ability>
           <img src={gitIcon} alt="icon git" />
-        </Card>
-        <Card>
+        </Ability>
+        <Ability>
           <img src={gitHubIcon} alt="icon github" />
-        </Card>
-        <Card>
+        </Ability>
+        <Ability>
           <img src={jsIcon} alt="icon javascript" />
-        </Card>
-        <Card>
+        </Ability>
+        <Ability>
           <img src={cssIcon} alt="icon css3" />
-        </Card>
-        <Card>
+        </Ability>
+        <Ability>
           <img src={vueJSIcon} alt="icon vuejs" />
-        </Card>
+        </Ability>
       </ListAbilities>
     </>
   )

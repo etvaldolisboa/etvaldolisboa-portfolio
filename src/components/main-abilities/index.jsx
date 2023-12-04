@@ -3,7 +3,7 @@ import { Title } from '../titles'
 
 import { AbilitiesSection } from './style'
 import { DesingParallax  } from '../desing-parallax'
-import { CardsAbility } from '../cards-abilities'
+import { CardsAbilities } from '../cards-abilities'
 
 const Abilities = () => {
   return (
@@ -11,7 +11,7 @@ const Abilities = () => {
       <Title>abilities</Title>
       <DesingParallax />
 
-      <CardsAbility/>
+      <CardsAbilities/>
     </AbilitiesSection>
   )
 }

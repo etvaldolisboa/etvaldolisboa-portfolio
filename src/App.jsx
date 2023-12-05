@@ -17,7 +17,7 @@ function App() {
         <Container>
           <MainHeader />
           <Hero />
-          {/* <About /> */}
+          <About />
           {/* <Abilities /> */}
           {/* <Projects /> */}
         </Container>

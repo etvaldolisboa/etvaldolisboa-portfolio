@@ -15,8 +15,8 @@ export const About = () => {
         <AboutImage src={me} alt='image profile' />
         <TextAbout>
           <p>
-            Oi, meu nome é
-            <b>Etvaldo Lisboa, sou um desenvolvedor FrontEnd autoditato do Brasil.</b>
+            Oi, meu nome é 
+            <span> Etvaldo Freitas Lisboa, sou um desenvolvedor FrontEnd autoditato do Brasil. </span> 
             Sou apaixonado por criar interfaces de usuário bonitas e eficientes, e estou sempre procurando novas
             maneiras de melhorar minhas habilidades.
             Eu venho construindo coisas na web desde quando eu estava no ensino medio, eu fiz inúmeros projetos
@@ -27,6 +27,8 @@ export const About = () => {
             conferidos em meu repositorio do
             <a href="https://github.com/etvaldolisboa" target="_blank">GitHub</a>.
           </p>
+
+          <a className='linkCV' href="cv">Donwload CV</a>
         </TextAbout>
       </AboutMe>
     </AboutSection>

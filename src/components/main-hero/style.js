@@ -87,4 +87,4 @@ export const IconHome = styled.span`
   position: absolute;
   width: 500px;
   clip-path: polygon(50% 0, 100% 0, 100% 100%, 0 50%);
-  `
+`

@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import '../../styles/root.css'
 
-export const Header = styled.header`
+export const MainHeader = styled.header`
   color: var(--white);
   background-color: var(--color-bw-800-opacity);
   backdrop-filter: var(--global-backdrop-filter);

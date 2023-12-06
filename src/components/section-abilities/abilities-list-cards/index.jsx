@@ -1,12 +1,12 @@
 // import React from 'react'
 import { Ability, ListAbilities } from './style'
 
-import reactIcon from '../../assets/icons/react-icon.svg'
-import gitIcon from '../../assets/icons/git-icon.svg'
-import gitHubIcon from '../../assets/icons/github-icon.svg'
-import jsIcon from '../../assets/icons/javascript-icon.svg'
-import vueJSIcon from '../../assets/icons/vuejs-icon.svg'
-import cssIcon from '../../assets/icons/css-icon.svg'
+import reactIcon from '../../../assets/icons/react-icon.svg'
+import gitIcon from '../../../assets/icons/git-icon.svg'
+import gitHubIcon from '../../../assets/icons/github-icon.svg'
+import jsIcon from '../../../assets/icons/javascript-icon.svg'
+import vueJSIcon from '../../../assets/icons/vuejs-icon.svg'
+import cssIcon from '../../../assets/icons/css-icon.svg'
 
 
 export const CardsAbilities = () => {

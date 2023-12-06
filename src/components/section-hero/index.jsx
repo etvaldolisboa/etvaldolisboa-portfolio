@@ -1,5 +1,6 @@
 import React from 'react'
-import { CardCode, TextHome, HeroSection, IconHome, Icons, ListIcons } from './style'
+import { CardCode, TextHome, HeroSection, Icons, ListIcons } from './style'
+import { IconHome } from '../desing/triangle'
 import github from '../../assets/icons/github-icon.svg'
 import linkedin from '../../assets/icons/linkedin-icon.svg'
 import codepen from '../../assets/icons/codepen-icon.svg'

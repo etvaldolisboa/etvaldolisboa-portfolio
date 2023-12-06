@@ -1,11 +1,11 @@
 import React from "react"
 import { BrowserRouter } from "react-router-dom"
-import { MainHeader } from "./components/main-header"
 import { createGlobalStyle } from 'styled-components';
-import { Hero } from "./components/main-hero";
-import { About } from "./components/main-about";
-import Abilities from "./components/main-abilities";
-import Projects from "./components/my-projects";
+import { Header } from "./components/section-header"
+import { Hero } from "./components/section-hero";
+import { About } from "./components/section-about";
+import { Abilities } from "./components/section-abilities";
+import { Projects } from "./components/section-projects";
 import { Container } from "./container";
 
 function App() {
@@ -15,11 +15,11 @@ function App() {
       <GlobalStyle />
       <BrowserRouter>
         <Container>
-          <MainHeader />
+          <Header />
           <Hero />
           <About />
-          {/* <Abilities /> */}
-          {/* <Projects /> */}
+          <Abilities />
+          <Projects />
         </Container>
       </BrowserRouter>
     </>
@@ -67,8 +67,6 @@ export const GlobalStyle = createGlobalStyle`
     all: unset;
   }
   h1, h2, h3, h4,h5, h6{
-    margin-block-start: 0;
-    margin-block-end:0;
     font-weight: 700;
     text-transform: capitalize;
   }

@@ -1,11 +1,11 @@
 import React from 'react'
-import { Title } from '../titles'
+import { Title } from '../titles-all'
 
 import { AbilitiesSection } from './style'
-import { DesingParallax  } from '../desing-parallax'
-import { CardsAbilities } from '../cards-abilities'
+import { DesingParallax  } from '../desing/parallax.jsx'
+import { CardsAbilities } from './abilities-list-cards/'
 
-const Abilities = () => {
+export const Abilities = () => {
   return (
     <AbilitiesSection>
       <Title>abilities</Title>
@@ -15,5 +15,3 @@ const Abilities = () => {
     </AbilitiesSection>
   )
 }
-
-export default Abilities

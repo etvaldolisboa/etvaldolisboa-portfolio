@@ -1,15 +1,15 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { Nav } from '../header-navegation'
-import { Header } from './style'
+import { Nav } from './header-navegation'
+import { MainHeader } from './style'
 
-export const MainHeader = () => {
+export const Header = () => {
   return (
-    <Header>
+    <MainHeader>
       <div>
         <Link><h1>EL</h1></Link>
         <Nav />
       </div>
-    </Header>
+    </MainHeader>
   )
 }

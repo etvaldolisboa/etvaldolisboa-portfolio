@@ -1,9 +1,8 @@
 import React from 'react'
-import { Title } from '../titles'
-import { DesingStreak } from '../desing-streak'
-
-import { AboutImage, AboutMe, TextAbout, AboutSection } from './style'
+import { Title } from '../titles-all'
+import { DesingStreak } from '../desing/streak'
 import me from '../../assets/images/foto-perfil.png'
+import { AboutImage, AboutMe, TextAbout, AboutSection } from './style'
 
 export const About = () => {
   return (
